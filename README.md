@@ -1,7 +1,3 @@
-Certainly! Here's the standardized README file for your `pixel-hotel-api-gateway` repository, structured similarly to your `pixel-hotel-core` README:
-
----
-
 # pixel-hotel-api-gateway
 
 [![CodeFactor](https://www.codefactor.io/repository/github/wesleycosta/pixel-hotel-api-gateway/badge)](https://www.codefactor.io/repository/github/wesleycosta/pixel-hotel-api-gateway)
@@ -36,10 +32,6 @@ To run the API Gateway in your local environment, follow these steps:
 
 4. Make sure to properly configure the backend services that the Gateway will be routing to, such as **Rooms** and **Reservations** services.
 
----
-
-These adjusted instructions provide a clear and precise sequence for cloning the repository, opening the solution in an IDE, and running the API Gateway project locally.
-
 ### Contributing:
 
 Contributions are welcome! If you have ideas for improvements or new features, feel free to submit issues and pull requests.
@@ -47,7 +39,3 @@ Contributions are welcome! If you have ideas for improvements or new features, f
 ### License:
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust the content based on specific details or additional sections relevant to your API Gateway project. This template maintains consistency with your `pixel-hotel-core` README structure while adapting to the specifics of your API Gateway project.
