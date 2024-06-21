@@ -6,8 +6,8 @@ In this architecture, the front-end is a Single Page Application (SPA) built wit
 
 The API Gateway utilizes Ocelot to manage and route requests to the following microservices:
 
-- **Reservations**: Handles the management of reservations.
-- **Rooms**: Manages rooms and categories.
+- [**Reservations**](https://github.com/wesleycosta/pixel-hotel-reservations): Handles the management of reservations.
+- [**Rooms**](https://github.com/wesleycosta/pixel-hotel-rooms): Manages rooms and categories.
 
 When a request is made from the Angular SPA, the API Gateway processes and routes it to the appropriate microservice, either Reservations or Rooms, depending on the nature of the request. 
 
