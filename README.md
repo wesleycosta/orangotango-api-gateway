@@ -4,7 +4,7 @@ The API Gateway serves as the single entry point for all client requests, acting
 
 In this architecture, the front-end is a Single Page Application (SPA) built with Angular, which interacts with various backend services through the API Gateway.
 
-The API Gateway utilizes Ocelot to manage and route requests to the following microservices:
+The API Gateway utilizes [Ocelot](https://github.com/ThreeMammals/Ocelot) to manage and route requests to the following microservices:
 
 - [**Rooms**](https://github.com/wesleycosta/pixel-hotel-rooms): Manages rooms and categories.
 - [**Reservations**](https://github.com/wesleycosta/pixel-hotel-reservations): Handles the management of reservations.
