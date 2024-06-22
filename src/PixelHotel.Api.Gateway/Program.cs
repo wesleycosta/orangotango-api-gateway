@@ -7,7 +7,11 @@ var app = new WebAppBuilder()
     .WithDefaultServices()
     .WithCustomConfiguration(config => config.AddJsonFile("ocelot.json"))
     .WithServicesFromAssemblies(AssemblyRegistry.GetAssemblies())
-    .WithDefaultAppConfig(app => app.UseOcelot().Wait())
+    .WithDefaultAppConfig(app =>
+    {
+        app.UseCors("AllowAny");
+        app.UseOcelot().Wait();
+    })
     .Create();
 
 app.Run();

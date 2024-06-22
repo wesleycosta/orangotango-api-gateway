@@ -8,6 +8,12 @@ namespace PixelHotel.Api.Gateway
         public IServiceCollection RegisterServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddOcelot(configuration);
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAny", builder => builder.AllowAnyOrigin()
+                       .AllowAnyHeader()
+                       .AllowAnyMethod());
+            });
 
             return services;
         }
