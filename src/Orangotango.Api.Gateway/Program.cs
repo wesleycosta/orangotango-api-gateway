@@ -1,6 +1,6 @@
 using Ocelot.Middleware;
+using Orangotango.Api;
 using Orangotango.Api.Gateway;
-using PixelHotel.Api;
 
 var app = new WebAppBuilder()
     .BuildDefault(args)
