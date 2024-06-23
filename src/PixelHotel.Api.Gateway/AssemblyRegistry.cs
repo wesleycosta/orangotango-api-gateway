@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 
-namespace PixelHotel.Api.Gateway;
+namespace Orangotango.Api.Gateway;
 
-public static class AssemblyRegistry 
+public static class AssemblyRegistry
 {
     public static IEnumerable<Assembly> GetAssemblies()
     {

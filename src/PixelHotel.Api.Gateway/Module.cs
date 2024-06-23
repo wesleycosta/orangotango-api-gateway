@@ -1,7 +1,7 @@
 ﻿using Ocelot.DependencyInjection;
-using PixelHotel.Infra.Abstractions;
+using Orangotango.Infra.Abstractions;
 
-namespace PixelHotel.Api.Gateway
+namespace Orangotango.Api.Gateway
 {
     public class Module : IModuleRegiterWithConfiguration
     {
