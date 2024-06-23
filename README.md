@@ -26,9 +26,9 @@ To run the API Gateway in your local environment, follow these steps:
    git clone https://github.com/wesleycosta/blue-whale-api-gateway.git
    ```
 
-2. Open the solution file `PixelHotelApiGateway.sln` in your preferred IDE.
+2. Open the solution file `BlueWhaleApiGateway.sln` in your preferred IDE.
 
-3. Select the main API Gateway project (`PixelHotel.ApiGateway`) and run it. This will start the local server for the API Gateway.
+3. Select the main API Gateway project (`BlueWhale.ApiGateway`) and run it. This will start the local server for the API Gateway.
 
 4. Make sure to properly configure the backend services that the Gateway will be routing to, such as **Rooms** and **Reservations** services.
 
