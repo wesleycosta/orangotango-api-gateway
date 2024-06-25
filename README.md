@@ -1,11 +1,12 @@
 # orangotango-api-gateway
+![Logo](https://github.com/wesleycosta/orangotango/raw/main/images/logos/logo_full.png)
+
+
+An API gateway using Ocelot that manages communication between external services and internal microservices.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway/badge)](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway)
 [![.NET](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml/badge.svg)](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml)
 
-The API Gateway serves as the single entry point for all client requests, acting as an intermediary that directs these requests to the appropriate microservices.
-
-In this architecture, the front-end is a Single Page Application (SPA) built with Angular, which interacts with various backend services through the API Gateway.
 
 ### Microservices Routed by API Gateway:
 
