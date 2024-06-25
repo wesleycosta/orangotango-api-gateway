@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "PixelHotel.Api.Gateway": {
+    "Api.Gateway": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
