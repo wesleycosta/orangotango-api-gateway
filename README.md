@@ -2,7 +2,7 @@
 ![Logo](https://github.com/wesleycosta/orangotango/raw/main/images/logos/logo_full.png)
 
 
-An API gateway using Ocelot that manages communication between external services and internal microservices.
+API Gateway using Ocelot to centralize requests for rooms and reservations microservices into a single entry point.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway/badge)](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway)
 [![.NET](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml/badge.svg)](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml)
