@@ -6,6 +6,7 @@ API Gateway using Ocelot to centralize requests for rooms and reservations micro
 
 [![CodeFactor](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway/badge)](https://www.codefactor.io/repository/github/wesleycosta/orangotango-api-gateway)
 [![.NET](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml/badge.svg)](https://github.com/wesleycosta/orangotango-api-gateway/actions/workflows/dotnet.yml)
+[![Docker Hub](https://img.shields.io/badge/docker-hub-blue.svg)](https://hub.docker.com/repository/docker/wesleycosta/orangotango-api-gateway)
 
 
 ### Microservices Routed by API Gateway:
