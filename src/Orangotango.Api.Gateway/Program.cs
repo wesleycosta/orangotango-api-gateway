@@ -5,7 +5,15 @@ using Orangotango.Api.Gateway;
 var app = new WebAppBuilder()
     .BuildDefault(args)
     .WithDefaultServices()
-    .WithCustomConfiguration(config => config.AddJsonFile("ocelot.json"))
+    .WithCustomConfiguration((config, env) =>
+    {
+        config
+            .SetBasePath(env.ContentRootPath)
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
+            .AddJsonFile($"ocelot.{env.EnvironmentName}.json", optional: false, reloadOnChange: true)
+            .AddEnvironmentVariables();
+    })
     .WithServicesFromAssemblies(AssemblyRegistry.GetAssemblies())
     .WithDefaultAppConfig(app =>
     {

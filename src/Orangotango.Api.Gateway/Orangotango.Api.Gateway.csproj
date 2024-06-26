@@ -8,12 +8,15 @@
 
 	<ItemGroup>
 		<PackageReference Include="Ocelot" Version="23.3.3" />
-		<PackageReference Include="Orangotango.Api" Version="1.8.0" />
+		<PackageReference Include="Orangotango.Api" Version="1.8.2" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Content Update="ocelot.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="ocelot.Development.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
 	</ItemGroup>
