@@ -12,7 +12,7 @@ var app = new WebAppBuilder()
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
             .AddJsonFile("ocelot.json", optional: false, reloadOnChange: true)
-            .AddJsonFile($"ocelot.{env.EnvironmentName}.json", optional: false, reloadOnChange: true)
+            .AddJsonFile($"ocelot.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
             .AddEnvironmentVariables();
     })
     .WithServicesFromAssemblies(AssemblyRegistry.GetAssemblies())
