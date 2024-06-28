@@ -9,7 +9,19 @@
           "Port": 8080
         }
       ],
-      "UpstreamPathTemplate": "/rooms/{everything}",
+      "UpstreamPathTemplate": "/housekeeping/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orangotango-reservations",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/management/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     }
   ],
