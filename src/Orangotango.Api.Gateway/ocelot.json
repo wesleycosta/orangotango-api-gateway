@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "orangotango-reservations",
-          "Port": 8082
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/management/{everything}",
